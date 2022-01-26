@@ -10,6 +10,7 @@ class Persoon:
 def toon_dictonary(dict):
     for x in dict:
          print("{} is {} jaar oud".format(dict[x].naam,dict[x].leeftijd))
+        #commentaar
 
 def zoek_naam_in_dict(dict,zoeknaam):
     for x in dict:
